@@ -8,6 +8,8 @@ def exibir_menu():
     print("[1] - Posição de Inserção de Pesquisa (Array) - André")
     print("[2] - Parênteses válidos (Pilha) - André")
     print("[3] - Jenela Deslizante Máxima (Lista) - André")
+    print("[4] - Soma Dois Números (Array) - Luiz")
+    print("[5] - Mesclar Duas Listas (Lista) - Luiz")
     print("[0] - Sair do programa")
     print("="*45)
 
@@ -15,7 +17,9 @@ def main():
     exercicios = {
         "1": "array_posicao_insercao_pesquisa.py",
         "2": "parenteses_validos.py",
-        "3": "jenela_deslizante_maxima.py"
+        "3": "jenela_deslizante_maxima.py",
+        "4": "soma_dois_numeros.py",
+        "5": "mesclar_duas_listas.py"
     }
 
     while True:
