@@ -14,3 +14,7 @@ print(f"Primeira lista: {list1}")
 print(f"Segunda lista: {list2}")
 
 print(mergeTwoLists(list1, list2))
+
+
+#link problema - fácil
+# https://leetcode.com/problems/merge-two-sorted-lists/
