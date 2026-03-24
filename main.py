@@ -10,7 +10,10 @@ def exibir_menu():
     print("[3] - Jenela Deslizante Máxima (Lista) - André")
     print("[4] - Soma Dois Números (Array) - Luiz")
     print("[5] - Mesclar Duas Listas (Lista) - Luiz")
-    print("[5] - Prefixo comum mais longo (Array) - Maria Eduarda")
+    print("[6] - Prefixo comum mais longo (Array) - Maria Eduarda")
+    print("[7] - Recipiente com mais água (Array) - Gustavo")
+    print("[8] - Lista encadeada inversa (Lista) - Gustavo")
+    print("[9] - Simplificar o caminho (Pilha) - Gustavo")
     print("[0] - Sair do programa")
     print("="*45)
 
@@ -21,12 +24,15 @@ def main():
         "3": "jenela_deslizante_maxima.py",
         "4": "soma_dois_numeros.py",
         "5": "mesclar_duas_listas.py",
-        "6": "prefixo_comum_mais_longo.py"
+        "6": "prefixo_comum_mais_longo.py",
+        "7": "recipiente_com_mais_agua.py",
+        "8": "lista_encadeada_inversa.py",
+        "9": "simplificar_o_caminho.py"
     }
 
     while True:
         exibir_menu()
-        escolha = input("Escolha o número do exercício que deseja executar (0-7): ")
+        escolha = input("Escolha o número do exercício que deseja executar (0-1): ")
 
         if escolha == "0":
             print("Saindo do programa. Até logo!")
