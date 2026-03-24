@@ -10,6 +10,7 @@ def exibir_menu():
     print("[3] - Jenela Deslizante Máxima (Lista) - André")
     print("[4] - Soma Dois Números (Array) - Luiz")
     print("[5] - Mesclar Duas Listas (Lista) - Luiz")
+    print("[5] - Prefixo comum mais longo (Array) - Maria Eduarda")
     print("[0] - Sair do programa")
     print("="*45)
 
@@ -19,7 +20,8 @@ def main():
         "2": "parenteses_validos.py",
         "3": "jenela_deslizante_maxima.py",
         "4": "soma_dois_numeros.py",
-        "5": "mesclar_duas_listas.py"
+        "5": "mesclar_duas_listas.py",
+        "6": "prefixo_comum_mais_longo.py"
     }
 
     while True:
