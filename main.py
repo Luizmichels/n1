@@ -11,11 +11,12 @@ def exibir_menu():
     print("[4] - Soma Dois Números (Array) - Luiz")
     print("[5] - Mesclar Duas Listas (Lista) - Luiz")
     print("[6] - Prefixo comum mais longo (Array) - Maria Eduarda")
-    print("[7] - Recipiente com mais água (Array) - Gustavo")
-    print("[8] - Lista encadeada inversa (Lista) - Gustavo")
-    print("[9] - Simplificar o caminho (Pilha) - Gustavo")
-    print("[10] - Two Sum (Array) - Rebeca")
-    print("[11] - Reverse Linked List (Lista) - Rebeca")
+    print("[7] - Faça a corda ser ótima (Pilha) - Maria Eduarda")
+    print("[8] - Recipiente com mais água (Array) - Gustavo")
+    print("[9] - Lista encadeada inversa (Lista) - Gustavo")
+    print("[10] - Simplificar o caminho (Pilha) - Gustavo")
+    print("[11] - Two Sum (Array) - Rebeca")
+    print("[12] - Reverse Linked List (Lista) - Rebeca")
     print("[0] - Sair do programa")
     print("="*45)
 
@@ -27,11 +28,12 @@ def main():
         "4": "soma_dois_numeros.py",
         "5": "mesclar_duas_listas.py",
         "6": "prefixo_comum_mais_longo.py",
-        "7": "recipiente_com_mais_agua.py",
-        "8": "lista_encadeada_inversa.py",
-        "9": "simplificar_o_caminho.py",
-        "10": "array_two_sum.py",
-        "11": "reverse_linked_list.py"
+        "7": "faca_corda_ser_otima.py",
+        "8": "recipiente_com_mais_agua.py",
+        "9": "lista_encadeada_inversa.py",
+        "10": "simplificar_o_caminho.py",
+        "11": "array_two_sum.py",
+        "12": "reverse_linked_list.py"
     }
 
     while True:
