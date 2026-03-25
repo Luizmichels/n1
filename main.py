@@ -14,6 +14,8 @@ def exibir_menu():
     print("[7] - Recipiente com mais água (Array) - Gustavo")
     print("[8] - Lista encadeada inversa (Lista) - Gustavo")
     print("[9] - Simplificar o caminho (Pilha) - Gustavo")
+    print("[10] - Two Sum (Array) - Rebeca")
+    print("[11] - Reverse Linked List (Lista) - Rebeca")
     print("[0] - Sair do programa")
     print("="*45)
 
@@ -27,12 +29,14 @@ def main():
         "6": "prefixo_comum_mais_longo.py",
         "7": "recipiente_com_mais_agua.py",
         "8": "lista_encadeada_inversa.py",
-        "9": "simplificar_o_caminho.py"
+        "9": "simplificar_o_caminho.py",
+        "10": "array_two_sum.py",
+        "11": "reverse_linked_list.py"
     }
 
     while True:
         exibir_menu()
-        escolha = input("Escolha o número do exercício que deseja executar (0-1): ")
+        escolha = input("Escolha o número do exercício que deseja executar (0-11): ")
 
         if escolha == "0":
             print("Saindo do programa. Até logo!")
