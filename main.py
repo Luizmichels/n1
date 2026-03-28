@@ -3,7 +3,7 @@ import sys
 
 def exibir_menu():
     print("\n" + "="*45)
-    print("        MENU DE EXERCÍCIOS DE BUSCA IA")
+    print("        MENU DOS DESAFIOS DE CODE INTERVIEW")
     print("="*45)
     print("[1] - Posição de Inserção de Pesquisa (Array) - André")
     print("[2] - Parênteses válidos (Pilha) - André")
@@ -38,7 +38,7 @@ def main():
 
     while True:
         exibir_menu()
-        escolha = input("Escolha o número do exercício que deseja executar (0-11): ")
+        escolha = input("Escolha o número do exercício que deseja executar (0-12): ")
 
         if escolha == "0":
             print("Saindo do programa. Até logo!")
@@ -64,7 +64,7 @@ def main():
             input("Pressione Enter para voltar ao menu...")
             
         else:
-            print("\nOpção inválida! Por favor, digite um número entre 0 e 7.")
+            print("\nOpção inválida! Por favor, digite um número entre 0 e 12.")
 
 if __name__ == "__main__":
     main()
