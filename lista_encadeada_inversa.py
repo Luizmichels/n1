@@ -41,3 +41,6 @@ novo = reverseBetween(head, 1, 5)
 
 print("Lista totalmente invertida:")
 print_list(novo)
+
+# link do problema - médio
+# https://leetcode.com/problems/reverse-linked-list-ii/description/

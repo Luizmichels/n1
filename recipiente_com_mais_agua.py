@@ -1,3 +1,5 @@
+
+
 def maxArea(height):
     left = 0
     right = len(height) - 1
@@ -24,3 +26,6 @@ resultado = maxArea(height)
 
 print("Array:", height)
 print("Área máxima:", resultado)
+
+# link do problema - médio
+# https://leetcode.com/problems/container-with-most-water/description/

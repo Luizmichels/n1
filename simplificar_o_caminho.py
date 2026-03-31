@@ -23,3 +23,6 @@ resultado = simplifyPath(path)
 
 print("Caminho original:", path)
 print("Caminho simplificado:", resultado)
+
+# link do problema - médio
+# https://leetcode.com/problems/simplify-path/description/
