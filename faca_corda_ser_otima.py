@@ -7,5 +7,12 @@ def verificar(s):
             return i
         elif s[i] != s[i + 1]:
             return "Não tem combinação"
-        
+
+
+if __name__ == "__main__":
+    entrada = input("Digite uma string: ")
+
+    resultado = verificar(entrada)
+
+    print(f"Resultado: {resultado}")   
         
