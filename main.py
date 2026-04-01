@@ -16,7 +16,7 @@ def exibir_menu():
     print("[9] - Lista encadeada inversa (Lista) - Gustavo")
     print("[10] - Simplificar o caminho (Pilha) - Gustavo")
     print("[11] - Two Sum (Array) - Rebeca")
-    print("[12] - Reverse Linked List (Lista) - Rebeca")
+    print("[12] - Remove Nth Node From End (Lista) - Rebeca")
     print("[0] - Sair do programa")
     print("="*45)
 
@@ -33,7 +33,7 @@ def main():
         "9": "lista_encadeada_inversa.py",
         "10": "simplificar_o_caminho.py",
         "11": "array_two_sum.py",
-        "12": "reverse_linked_list.py"
+        "12": "remove_nth_node_from_end.py"
     }
 
     while True:
